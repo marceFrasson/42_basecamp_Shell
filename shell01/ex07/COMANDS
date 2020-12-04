@@ -1,0 +1,6 @@
+awk -F ":" 'NR % 2 == 0 {print $1}' /etc/passwd #busca colunas separadas por : e só linhas pares, no endereço
+rev #ordena os caracteres
+sort -r #ordena em ordem alfabetica reversa
+sed -n "${FT_LINE1},${TF_LINE2}p" #apenas linha 1 e 2 e p printa
+tr '\n' ,
+sed 's/,$/./g; s/,/, /g' #substituir a virgula final por ponto, subtitui todas as virgulas por virgula e espaço
