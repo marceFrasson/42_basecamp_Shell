@@ -10,7 +10,7 @@ Introduction to Shell commands
 | Exercise | Description|
 |----------|------------|
 | ex00 | A file called z that returns "Z", followed by a new line, whenever the command cat is used on it |
-| ex01 | Create a file testShell00 with the following permissions "-r--r-xr-x" |
+| ex01 | Create a file testShell00 with the following permissions: `-r--r-xr-x` |
 | ex02 | Create a list of files and alterate it's permissions |
 | ex03 | Once you’ve got at least one Kerberos ticket, write a list of all your tickets into a file named klist.txt |
 | ex04 | In a midLS file, place the command line that will list all files and directories in your current directory, separated by a comma, by order of creation date. Make sure directories’ names are followed by a slash character. |
